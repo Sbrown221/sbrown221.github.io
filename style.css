@@ -1,0 +1,50 @@
+h1{
+	color: black;
+	text-align: center;
+}
+body {font-size: 16px; margin: 0; background-image: url("Space 2.jpg"); 
+background-repeat: no-repeat; background-size: cover;
+}
+.title{
+	color: blue;
+}
+.header{text-align: center;}
+.hero__img{
+	margin-top: 100px;
+}
+.text__colour{color: white;
+}
+.header__link__colour{text-decoration: none; color: white; 
+}
+.header__list{list-style: none; display: inline; padding: 0;
+}
+.instacam{
+
+}
+.footer{text-align: center;
+color: white;}
+.links{text-decoration: none;}
+@media (min-width: 600px) {
+	h1{
+		font-size: 40px;
+		text-align: center;
+	}
+}
+h2 {
+	font-size: 30px;
+	text-align: left;
+}
+.nav{display: inline;}
+a:visited{
+	color:yellow;
+}
+a:hover{
+	color: green;
+	text-decoration: overline;
+}
+.image__swap:hover{
+	content: url('Performance.jpg');
+}
+.white__icons{
+	color: white
+}
